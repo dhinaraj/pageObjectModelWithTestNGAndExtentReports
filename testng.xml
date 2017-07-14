@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My First Test" parallel="classes" thread-count="2">
+	<!-- <parameter name="appURL" value="https://demometalk.plus65.local/admin/login"/> -->
+	<parameter name="appURL" value="https://demometalk.plus65.local/admin/login" />
+	<parameter name="browserType" value="firefox" />
+	<test name="Test">
+		 <classes>
+            <class name="testsSample.SampleTest1" />
+			<class name="testsSample.SampleTest2" />
+        </classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
